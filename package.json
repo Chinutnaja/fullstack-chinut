@@ -1,0 +1,31 @@
+{
+  "name": "fullstack_268-01",
+  "version": "1.0.0",
+  "description": "repository for fullstack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write *.js",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chinutnaja/fullstack_268-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Chinutnaja/fullstack_268-01/issues"
+  },
+  "homepage": "https://github.com/Chinutnaja/fullstack_268-01#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
